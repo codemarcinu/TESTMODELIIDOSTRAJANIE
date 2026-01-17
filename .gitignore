@@ -42,11 +42,24 @@ env/
 .env.local
 .env.*.local
 
-# Benchmark outputs
+# Google Cloud
+*gcp*.json
+gcp-credentials.json
+service-account-*.json
+
+# API Keys & Secrets
+*.key
+*.pem
+id_rsa
+id_rsa.pub
+
+# Test & Benchmark outputs
 benchmarking/test_receipts/*.png
 benchmarking/test_receipts/*.jpg
-benchmarking/ground_truth/*.json
+benchmarking/test_receipts/*.jpeg
+benchmarking/ocr_results/
 benchmarking/results/
+optimization/results/
 
 # Logs
 *.log
@@ -55,3 +68,16 @@ logs/
 # Temporary files
 *.tmp
 *.bak
+*.temp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
