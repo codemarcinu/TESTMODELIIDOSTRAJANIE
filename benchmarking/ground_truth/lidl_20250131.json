@@ -1,0 +1,71 @@
+{
+  "merchant_name": "Lidl sp. z o. o.",
+  "merchant_location": "Poznańska 48, Jankowice, 62-080 Tarnowo Podgórne",
+  "merchant_phone": null,
+  "date": "2025-01-31",
+  "time": "06:33",
+  "receipt_number": "22402",
+  "register_number": null,
+  "total_amount": 83.05,
+  "subtotal_amount": 83.05,
+  "tax_amount": null,
+  "tax_percentage": null,
+  "payment_method": "card",
+  "items": [
+    {
+      "description": "Sty piuw natural.",
+      "quantity": 1.0,
+      "unit_price": 8.99,
+      "total": 8.99
+    },
+    {
+      "description": "Jaja kurze",
+      "quantity": 1.0,
+      "unit_price": 4.99,
+      "total": 4.99
+    },
+    {
+      "description": "Koreizfassias F1",
+      "quantity": 1.0,
+      "unit_price": 10.74,
+      "total": 10.74
+    },
+    {
+      "description": "Banan ewf",
+      "quantity": 1.0,
+      "unit_price": 6.99,
+      "total": 6.99
+    },
+    {
+      "description": "Bulka graham",
+      "quantity": 4.0,
+      "unit_price": 1.99,
+      "total": 7.96
+    },
+    {
+      "description": "Kiat sak",
+      "quantity": 3.0,
+      "unit_price": 1.99,
+      "total": 5.97
+    },
+    {
+      "description": "Pierozki Gyoza",
+      "quantity": 2.0,
+      "unit_price": 7.49,
+      "total": 14.98
+    },
+    {
+      "description": "Skyr pitniy naturali",
+      "quantity": 1.0,
+      "unit_price": 10.99,
+      "total": 10.99
+    },
+    {
+      "description": "Czekolada b.z orzech",
+      "quantity": 3.0,
+      "unit_price": 6.99,
+      "total": 20.97
+    }
+  ],
+  "notes": "Lidl Plus kupon aktywny"
+}
