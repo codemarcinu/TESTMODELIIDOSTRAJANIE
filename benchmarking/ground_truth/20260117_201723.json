@@ -1,0 +1,71 @@
+{
+  "merchant_name": "Kaufland Legionowo",
+  "date": "2025-09-19",
+  "time": "16:34",
+  "total_amount": 61.5,
+  "tax_amount": 3.04,
+  "currency": "PLN",
+  "items": [
+    {
+      "description": "Torba foliowa",
+      "quantity": 1.0,
+      "unit_price": 0.79,
+      "total": 0.79
+    },
+    {
+      "description": "MonteSantWater0,75",
+      "quantity": 1.0,
+      "unit_price": 14.99,
+      "total": 14.99
+    },
+    {
+      "description": "SerekŁaciatyCzos135g",
+      "quantity": 1.0,
+      "unit_price": 3.69,
+      "total": 3.69
+    },
+    {
+      "description": "KabanosWołowWieprz",
+      "quantity": 1.0,
+      "unit_price": 6.79,
+      "total": 6.79
+    },
+    {
+      "description": "KabanosyDrob105g",
+      "quantity": 1.0,
+      "unit_price": 6.79,
+      "total": 6.79
+    },
+    {
+      "description": "KLCSzynkaChłopska",
+      "quantity": 1.0,
+      "unit_price": 5.79,
+      "total": 5.79
+    },
+    {
+      "description": "DijoTortilla250G",
+      "quantity": 1.0,
+      "unit_price": 4.19,
+      "total": 4.19
+    },
+    {
+      "description": "MilkaNapójMlecznyK...",
+      "quantity": 1.0,
+      "unit_price": 5.99,
+      "total": 5.99
+    },
+    {
+      "description": "MilkaNapójMlecznyK...",
+      "quantity": 1.0,
+      "unit_price": 5.99,
+      "total": 5.99
+    },
+    {
+      "description": "CheetosSweetChil165g",
+      "quantity": 1.0,
+      "unit_price": 6.49,
+      "total": 6.49
+    }
+  ],
+  "payment_method": "Card"
+}

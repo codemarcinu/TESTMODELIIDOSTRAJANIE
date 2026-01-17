@@ -12,6 +12,7 @@ import argparse
 import json
 import logging
 import os
+import sys
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -167,7 +168,7 @@ def cmd_benchmark(args):
     # Delegate to run_benchmark.py
     import subprocess
     cmd = [
-        "python",
+        sys.executable,
         "benchmarking/run_benchmark.py",
         "--image-dir", args.input_dir or "benchmarking/test_receipts",
         "--output-dir", args.output,

@@ -57,6 +57,8 @@ id_rsa.pub
 benchmarking/test_receipts/*.png
 benchmarking/test_receipts/*.jpg
 benchmarking/test_receipts/*.jpeg
+benchmarking/test_receipts/*.pdf
+*:Zone.Identifier
 benchmarking/ocr_results/
 benchmarking/results/
 optimization/results/

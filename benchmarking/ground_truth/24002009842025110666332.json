@@ -1,0 +1,66 @@
+{
+  "merchant_name": "Lidl sp. z o.o. sp. k.",
+  "date": "2023-11-05",
+  "time": "17:59",
+  "total_amount": 74.67,
+  "tax_amount": 32.43,
+  "currency": "PLN",
+  "items": [
+    {
+      "description": "Skyr patrun natu.",
+      "quantity": 1.0,
+      "unit_price": 11.99,
+      "discount": -1.19,
+      "total": 10.8
+    },
+    {
+      "description": "Cosm ożel Regul.",
+      "quantity": 1.0,
+      "unit_price": 19.99,
+      "discount": -2.0,
+      "total": 17.99
+    },
+    {
+      "description": "Czekolada B z or.",
+      "quantity": 3.0,
+      "unit_price": 8.89,
+      "discount": -2.67,
+      "total": 24.0
+    },
+    {
+      "description": "Pierozki Gyoza",
+      "quantity": 2.0,
+      "unit_price": 7.49,
+      "discount": -1.5,
+      "total": 13.48
+    },
+    {
+      "description": "Makarony Fusilli.",
+      "quantity": 1.0,
+      "unit_price": 4.99,
+      "discount": -0.5,
+      "total": 4.49
+    },
+    {
+      "description": "Mleko Uht 3,2%",
+      "quantity": 1.0,
+      "unit_price": 3.49,
+      "discount": -0.35,
+      "total": 3.14
+    },
+    {
+      "description": "Mieszanka orzech.",
+      "quantity": 1.0,
+      "unit_price": 8.99,
+      "discount": -0.9,
+      "total": 8.09
+    }
+  ],
+  "discounts_summary": [
+    {
+      "description": "Rabat grupowy",
+      "amount": -1.5
+    }
+  ],
+  "payment_method": "Karta"
+}

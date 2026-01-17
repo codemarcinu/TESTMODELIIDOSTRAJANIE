@@ -46,7 +46,7 @@ class DeepSeekOCRProcessor:
         reference_json: Optional[Dict[str, Any]] = None
     ) -> Dict[str, Any]:
         """Process OCR text and return structured JSON."""
-        from prompt_templates import PromptTemplates
+        from .prompt_templates import PromptTemplates
 
         reference = reference_json or {}
         prompt = PromptTemplates.get_prompt(prompt_version, ocr_text, reference)
@@ -113,7 +113,7 @@ class DeepSeekOCRProcessor:
         versions: list
     ) -> Dict[str, Any]:
         """Test multiple prompt versions and return results."""
-        from prompt_templates import PromptVersion
+        from .prompt_templates import PromptVersion
 
         results = {}
         for version in versions:

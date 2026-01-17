@@ -1,0 +1,78 @@
+{
+  "merchant_name": "Lidl sp. z o. o. sp. k.",
+  "date": "2025-11-14",
+  "time": "13:54",
+  "total_amount": 94.02,
+  "tax_amount": 14.67,
+  "currency": "PLN",
+  "items": [
+    {
+      "description": "Reklamówka mała r",
+      "quantity": 2.0,
+      "unit_price": 0.79,
+      "total": 1.58
+    },
+    {
+      "description": "Pościel0486119",
+      "quantity": 1.0,
+      "unit_price": 34.99,
+      "total": 34.99
+    },
+    {
+      "description": "Prześcierad.048...",
+      "quantity": 1.0,
+      "unit_price": 15.99,
+      "total": 15.99
+    },
+    {
+      "description": "Ściereczki naw.80...",
+      "quantity": 1.0,
+      "unit_price": 6.79,
+      "total": 6.79
+    },
+    {
+      "description": "Mleko UHT 1,5%",
+      "quantity": 1.0,
+      "unit_price": 2.99,
+      "total": 2.99
+    },
+    {
+      "description": "Antipasti 150g",
+      "quantity": 1.0,
+      "unit_price": 6.89,
+      "total": 6.89
+    },
+    {
+      "description": "Knorr Nudle",
+      "quantity": 1.0,
+      "unit_price": 2.89,
+      "total": 2.89
+    },
+    {
+      "description": "Czekolada b.z or...",
+      "quantity": 4.0,
+      "unit_price": 6.89,
+      "discount": -13.8,
+      "total": 27.56
+    },
+    {
+      "description": "Snack kukurydziany",
+      "quantity": 1.0,
+      "unit_price": 3.15,
+      "total": 3.15
+    },
+    {
+      "description": "HP Napój czekolad...",
+      "quantity": 1.0,
+      "unit_price": 4.99,
+      "total": 4.99
+    }
+  ],
+  "discounts_summary": [
+    {
+      "description": "Lidl Plus kupon",
+      "amount": -13.8
+    }
+  ],
+  "payment_method": "Karta płatnicza"
+}

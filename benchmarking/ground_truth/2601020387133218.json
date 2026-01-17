@@ -1,0 +1,108 @@
+{
+  "merchant_name": "Biedronka",
+  "date": "2026-01-02",
+  "time": "10:20",
+  "total_amount": 66.68,
+  "tax_amount": 0.0,
+  "currency": "PLN",
+  "items": [
+    {
+      "description": "Mleko Bez Lakt 1 l",
+      "quantity": 1.0,
+      "unit_price": 4.79,
+      "total": 4.79
+    },
+    {
+      "description": "Mleko Bez Lakt 1 l",
+      "quantity": 1.0,
+      "unit_price": 4.79,
+      "total": 4.79
+    },
+    {
+      "description": "KawaRozpusMild200g",
+      "quantity": 1.0,
+      "unit_price": 23.99,
+      "discount": -7.22,
+      "total": 16.77
+    },
+    {
+      "description": "KawaRozpusMild200g",
+      "quantity": 1.0,
+      "unit_price": 23.99,
+      "discount": -7.23,
+      "total": 16.76
+    },
+    {
+      "description": "ZiemniakiMyteLuz",
+      "quantity": 0.775,
+      "unit_price": 3.99,
+      "total": 3.09
+    },
+    {
+      "description": "Kapusta Stoż Luz",
+      "quantity": 1.22,
+      "unit_price": 6.99,
+      "total": 8.53
+    },
+    {
+      "description": "BulkaKajzerka55g",
+      "quantity": 6.0,
+      "unit_price": 0.39,
+      "discount": -0.36,
+      "total": 1.98
+    },
+    {
+      "description": "HerTeeGreTeaLem20t",
+      "quantity": 1.0,
+      "unit_price": 5.49,
+      "total": 5.49
+    },
+    {
+      "description": "Serek wiejski 200g",
+      "quantity": 1.0,
+      "unit_price": 2.29,
+      "discount": -0.57,
+      "total": 1.72
+    },
+    {
+      "description": "Serek wiejski 200g",
+      "quantity": 1.0,
+      "unit_price": 2.29,
+      "discount": -0.58,
+      "total": 1.71
+    },
+    {
+      "description": "Serek wiejski 200g",
+      "quantity": 1.0,
+      "unit_price": 2.29,
+      "discount": -0.57,
+      "total": 1.72
+    },
+    {
+      "description": "PomysłNaWinChło40g",
+      "quantity": 1.0,
+      "unit_price": 3.55,
+      "total": 3.55
+    },
+    {
+      "description": "Pomarańcze Des Luz",
+      "quantity": 0.535,
+      "unit_price": 6.99,
+      "discount": -2.14,
+      "total": 1.6
+    },
+    {
+      "description": "SokZCytrGoBio0,2L",
+      "quantity": 1.0,
+      "unit_price": 1.99,
+      "total": 1.99
+    },
+    {
+      "description": "Mielo wp szyn 500g",
+      "quantity": 1.0,
+      "unit_price": 11.99,
+      "total": 11.99
+    }
+  ],
+  "payment_method": "Unknown"
+}

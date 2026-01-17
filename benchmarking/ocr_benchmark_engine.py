@@ -17,6 +17,8 @@ from abc import ABC, abstractmethod
 import numpy as np
 from PIL import Image
 from fuzzywuzzy import fuzz
+from pdf2image import convert_from_path
+import io
 from enum import Enum
 
 # Configure logging
@@ -25,6 +27,28 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+logger = logging.getLogger(__name__)
+
+
+def load_image_bytes(image_path: str) -> bytes:
+    """Load image bytes, converting PDF to image if necessary."""
+    path = Path(image_path)
+    if path.suffix.lower() == '.pdf':
+        try:
+            pages = convert_from_path(str(path), first_page=1, last_page=1)
+            if not pages:
+                raise ValueError("Empty PDF")
+            
+            img_byte_arr = io.BytesIO()
+            pages[0].save(img_byte_arr, format='JPEG')
+            return img_byte_arr.getvalue()
+        except Exception as e:
+            logger.error(f"Failed to convert PDF {path}: {e}")
+            raise
+    else:
+        with open(path, 'rb') as f:
+            return f.read()
 
 
 class OCRProvider(str, Enum):
@@ -67,8 +91,6 @@ class BenchmarkMetrics:
     
     # Performance metrics
     processing_time: float  # seconds
-    tokens_used: Optional[int] = None
-    cost_per_page: Optional[float] = None
     
     # Data quality
     field_completeness: float  # percentage of expected fields extracted
@@ -77,6 +99,9 @@ class BenchmarkMetrics:
     # Business logic
     consistency_score: float  # validation against business rules
     
+    # Optional fields
+    tokens_used: Optional[int] = None
+    cost_per_page: Optional[float] = None
     timestamp: str = None
 
     def __post_init__(self):
@@ -125,8 +150,9 @@ class GoogleVisionExtractor(OCRExtractor):
 
         start_time = time.time()
 
-        with open(image_path, "rb") as image_file:
-            content = image_file.read()
+        start_time = time.time()
+
+        content = load_image_bytes(image_path)
 
         image = {"content": content}
         request = {"image": image, "features": [{"type_": 1, "max_results": 10}]}
@@ -179,8 +205,8 @@ class GPT4oMiniExtractor(OCRExtractor):
 
         # Encode image
         import base64
-        with open(image_path, "rb") as f:
-            image_data = base64.b64encode(f.read()).decode("utf-8")
+        image_bytes = load_image_bytes(image_path)
+        image_data = base64.b64encode(image_bytes).decode("utf-8")
 
         # Call GPT-4o mini with vision
         response = self.client.chat.completions.create(
@@ -287,8 +313,8 @@ class DeepSeekR1Extractor(OCRExtractor):
 
         # Encode image
         import base64
-        with open(image_path, "rb") as f:
-            image_data = base64.b64encode(f.read()).decode("utf-8")
+        image_bytes = load_image_bytes(image_path)
+        image_data = base64.b64encode(image_bytes).decode("utf-8")
 
         prompt = self._get_extraction_prompt()
 
@@ -384,7 +410,8 @@ class OCRBenchmark:
             output_dir.mkdir(parents=True, exist_ok=True)
 
         image_dir = Path(image_dir)
-        images = list(image_dir.glob("*.png")) + list(image_dir.glob("*.jpg"))
+        image_dir = Path(image_dir)
+        images = list(image_dir.glob("*.png")) + list(image_dir.glob("*.jpg")) + list(image_dir.glob("*.jpeg")) + list(image_dir.glob("*.pdf"))
 
         logger.info(f"Running benchmark on {len(images)} images with {len(providers)} providers")
 

@@ -30,36 +30,36 @@ install:
 
 setup:
 	@echo "Setting up test environment..."
-	cd benchmarking && python setup_test_data.py
+	cd benchmarking && venv/bin/python setup_test_data.py
 	@echo "✓ Test environment ready"
 
 pipeline:
 	@echo "Processing single receipt..."
-	python main.py pipeline --image benchmarking/test_receipts/receipt_001.png --prompt-version v2
+	venv/bin/python main.py pipeline --image benchmarking/test_receipts/receipt_001.png --prompt-version v2
 
 batch:
 	@echo "Processing batch..."
-	python main.py batch --input-dir benchmarking/test_receipts --output results/
+	venv/bin/python main.py batch --input-dir benchmarking/test_receipts --output results/
 
 test-prompts:
 	@echo "Testing all 6 prompt versions..."
-	python main.py test-prompts --versions v1 v2 v3 v4 v5 v6 --output optimization/results/
+	venv/bin/python main.py test-prompts --versions v1 v2 v3 v4 v5 v6 --output optimization/results/
 
 tune:
 	@echo "Running prompt tuning..."
-	python main.py tune --ground-truth-dir benchmarking/ground_truth --output optimization/results/
+	venv/bin/python main.py tune --ground-truth-dir benchmarking/ground_truth --output optimization/results/
 
 benchmark:
 	@echo "Running full benchmark..."
-	python main.py benchmark --providers gpt4o_mini deepseek_r1 --output benchmarking/results/
+	venv/bin/python main.py benchmark --providers gpt4o_mini deepseek_r1 --output benchmarking/results/
 
 benchmark-gpt:
 	@echo "Benchmarking GPT-4o mini..."
-	python main.py benchmark --providers gpt4o_mini --output benchmarking/results/
+	venv/bin/python main.py benchmark --providers gpt4o_mini --output benchmarking/results/
 
 benchmark-ds:
 	@echo "Benchmarking DeepSeek R1..."
-	python main.py benchmark --providers deepseek_r1 --output benchmarking/results/
+	venv/bin/python main.py benchmark --providers deepseek_r1 --output benchmarking/results/
 
 clean:
 	@echo "Cleaning Python cache..."

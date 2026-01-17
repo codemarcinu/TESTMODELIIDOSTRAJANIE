@@ -1,0 +1,71 @@
+{
+  "merchant_name": "Kaufland Legionowo",
+  "date": "2025-09-12",
+  "time": "18:28",
+  "total_amount": 121.04,
+  "tax_amount": 18.69,
+  "currency": "PLN",
+  "items": [
+    {
+      "description": "Szczypiorek 80g",
+      "quantity": 1.0,
+      "unit_price": 5.73,
+      "total": 5.73
+    },
+    {
+      "description": "Zupa Inst Rosół 65g",
+      "quantity": 1.0,
+      "unit_price": 1.79,
+      "total": 1.79
+    },
+    {
+      "description": "Zupa Inst Rosół 65g",
+      "quantity": 1.0,
+      "unit_price": 1.79,
+      "total": 1.79
+    },
+    {
+      "description": "Bułki graham z otręb...",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "total": 3.99
+    },
+    {
+      "description": "K. Kalafior 450g",
+      "quantity": 1.0,
+      "unit_price": 4.99,
+      "total": 4.99
+    },
+    {
+      "description": "Coccolino Żel Do Prania",
+      "quantity": 1.0,
+      "unit_price": 58.99,
+      "total": 58.99
+    },
+    {
+      "description": "Coccolino Płyn 1,7L",
+      "quantity": 1.0,
+      "unit_price": 19.59,
+      "total": 19.59
+    },
+    {
+      "description": "Domestos Płyn WC 1L",
+      "quantity": 1.0,
+      "unit_price": 12.39,
+      "total": 12.39
+    },
+    {
+      "description": "Desperados Nocturno",
+      "quantity": 1.0,
+      "unit_price": 5.89,
+      "total": 5.89
+    },
+    {
+      "description": "Desperados Nocturno",
+      "quantity": 1.0,
+      "unit_price": 5.89,
+      "total": 5.89
+    }
+  ],
+  "payment_method": "Card"
+}

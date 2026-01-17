@@ -10,7 +10,7 @@ from typing import Dict, Any, List, Tuple
 from dataclasses import dataclass, asdict
 import statistics
 
-from prompt_templates import PromptTemplates, PromptVersion
+from .prompt_templates import PromptTemplates, PromptVersion
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

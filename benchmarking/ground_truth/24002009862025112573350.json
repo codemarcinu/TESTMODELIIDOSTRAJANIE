@@ -1,0 +1,42 @@
+{
+  "merchant_name": "Lidl",
+  "date": "2025-11-25",
+  "time": "15:54",
+  "total_amount": 21.72,
+  "tax_amount": 2.56,
+  "currency": "PLN",
+  "items": [
+    {
+      "description": "Bułka kajzerka",
+      "quantity": 4.0,
+      "unit_price": 0.35,
+      "discount": -0.24,
+      "total": 1.16
+    },
+    {
+      "description": "Torba papierow",
+      "quantity": 1.0,
+      "unit_price": 0.99,
+      "total": 0.99
+    },
+    {
+      "description": "Osłona0480253",
+      "quantity": 1.0,
+      "unit_price": 9.99,
+      "total": 9.99
+    },
+    {
+      "description": "Płatki Corn Fl",
+      "quantity": 1.0,
+      "unit_price": 5.99,
+      "total": 5.99
+    },
+    {
+      "description": "Śmietana 12% 4",
+      "quantity": 1.0,
+      "unit_price": 3.59,
+      "total": 3.59
+    }
+  ],
+  "payment_method": "Karta płatnicza"
+}

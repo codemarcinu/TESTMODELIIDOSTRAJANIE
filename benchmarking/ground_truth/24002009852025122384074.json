@@ -1,0 +1,68 @@
+{
+  "merchant_name": "Lidl",
+  "date": "2025-12-23",
+  "time": "21:42",
+  "total_amount": 59.8,
+  "tax_amount": 6.04,
+  "currency": "PLN",
+  "items": [
+    {
+      "description": "Mięso mielone",
+      "quantity": 1.0,
+      "unit_price": 12.49,
+      "discount": -6.25,
+      "total": 6.24
+    },
+    {
+      "description": "Danie indyjskie",
+      "quantity": 1.0,
+      "unit_price": 11.37,
+      "discount": -5.69,
+      "total": 5.68
+    },
+    {
+      "description": "Danie obiadowe",
+      "quantity": 1.0,
+      "unit_price": 10.99,
+      "discount": -5.5,
+      "total": 5.49
+    },
+    {
+      "description": "Mleko UHT 1,5%",
+      "quantity": 1.0,
+      "unit_price": 2.85,
+      "total": 2.85
+    },
+    {
+      "description": "Buraczki zasma",
+      "quantity": 1.0,
+      "unit_price": 3.93,
+      "total": 3.93
+    },
+    {
+      "description": "Wafle kukurydz",
+      "quantity": 1.0,
+      "unit_price": 3.65,
+      "total": 3.65
+    },
+    {
+      "description": "Kwasek cytryno",
+      "quantity": 1.0,
+      "unit_price": 4.99,
+      "total": 4.99
+    },
+    {
+      "description": "Coca Cola",
+      "quantity": 1.0,
+      "unit_price": 17.94,
+      "total": 17.94
+    }
+  ],
+  "discounts_summary": [
+    {
+      "description": "Lidl Plus oferta",
+      "amount": -3.89
+    }
+  ],
+  "payment_method": "Karta płatnicza"
+}

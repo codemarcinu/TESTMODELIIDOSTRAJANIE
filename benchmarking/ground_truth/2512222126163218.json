@@ -1,0 +1,141 @@
+{
+  "merchant_name": "Biedronka",
+  "date": "2025-12-22",
+  "time": "16:46",
+  "total_amount": 101.43,
+  "tax_amount": 0.0,
+  "currency": "PLN",
+  "items": [
+    {
+      "description": "Mleko UHT 1,5 1l",
+      "quantity": 1.0,
+      "unit_price": 2.85,
+      "total": 2.85
+    },
+    {
+      "description": "Mleko UHT 1,5 1l",
+      "quantity": 1.0,
+      "unit_price": 2.85,
+      "total": 2.85
+    },
+    {
+      "description": "PłatkiKukurVit500g",
+      "quantity": 1.0,
+      "unit_price": 5.99,
+      "total": 5.99
+    },
+    {
+      "description": "GranolaMixVit300g",
+      "quantity": 1.0,
+      "unit_price": 6.99,
+      "discount": -2.3,
+      "total": 4.69
+    },
+    {
+      "description": "BarszCzerWiniar60g",
+      "quantity": 1.0,
+      "unit_price": 2.99,
+      "total": 2.99
+    },
+    {
+      "description": "Ciabatta 80 g",
+      "quantity": 5.0,
+      "unit_price": 1.14,
+      "discount": -0.75,
+      "total": 4.95
+    },
+    {
+      "description": "MiniPaszPieKap 40g",
+      "quantity": 6.0,
+      "unit_price": 1.09,
+      "discount": -0.84,
+      "total": 5.7
+    },
+    {
+      "description": "SałWarzJajko500g",
+      "quantity": 1.0,
+      "unit_price": 5.99,
+      "total": 5.99
+    },
+    {
+      "description": "FrytSteFrAviko750g",
+      "quantity": 1.0,
+      "unit_price": 10.49,
+      "total": 10.49
+    },
+    {
+      "description": "Serek wiejski 200g",
+      "quantity": 1.0,
+      "unit_price": 2.29,
+      "total": 2.29
+    },
+    {
+      "description": "Serek wiejski 200g",
+      "quantity": 1.0,
+      "unit_price": 2.29,
+      "total": 2.29
+    },
+    {
+      "description": "MasłoOsełMIDol300g",
+      "quantity": 1.0,
+      "unit_price": 10.99,
+      "total": 10.99
+    },
+    {
+      "description": "Ser Edamski 250g",
+      "quantity": 1.0,
+      "unit_price": 7.99,
+      "total": 7.99
+    },
+    {
+      "description": "SerDelikateNat150g",
+      "quantity": 1.0,
+      "unit_price": 5.69,
+      "total": 5.69
+    },
+    {
+      "description": "Pomarańcze Des Luz",
+      "quantity": 0.885,
+      "unit_price": 6.99,
+      "discount": -3.54,
+      "total": 2.65
+    },
+    {
+      "description": "RacuchyZJabłkami320",
+      "quantity": 1.0,
+      "unit_price": 7.99,
+      "total": 7.99
+    },
+    {
+      "description": "RacuchyZJabłkami320",
+      "quantity": 1.0,
+      "unit_price": 7.99,
+      "total": 7.99
+    },
+    {
+      "description": "Pomidor śliwk 500g",
+      "quantity": 1.0,
+      "unit_price": 6.99,
+      "total": 6.99
+    },
+    {
+      "description": "Marchew Luz",
+      "quantity": 0.56,
+      "unit_price": 1.99,
+      "total": 1.11
+    },
+    {
+      "description": "Cebula Żółta Luz",
+      "quantity": 0.415,
+      "unit_price": 2.99,
+      "total": 1.24
+    },
+    {
+      "description": "ZiemniakiMyteLuz",
+      "quantity": 0.985,
+      "unit_price": 3.99,
+      "total": 3.93
+    }
+  ],
+  "payment_method": "Unknown"
+}

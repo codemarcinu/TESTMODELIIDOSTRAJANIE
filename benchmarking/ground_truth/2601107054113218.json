@@ -1,0 +1,98 @@
+{
+  "merchant_name": "Biedronka",
+  "date": "2026-01-10",
+  "time": "17:12",
+  "total_amount": 60.97,
+  "tax_amount": 0.0,
+  "currency": "PLN",
+  "items": [
+    {
+      "description": "Jaja W Wyb L 10szt",
+      "quantity": 1.0,
+      "unit_price": 12.99,
+      "total": 12.99
+    },
+    {
+      "description": "Fil.MakrGraalPom170g",
+      "quantity": 1.0,
+      "unit_price": 6.99,
+      "discount": -2.33,
+      "total": 4.66
+    },
+    {
+      "description": "Fil.MakrGraalPom170g",
+      "quantity": 1.0,
+      "unit_price": 6.99,
+      "discount": -2.33,
+      "total": 4.66
+    },
+    {
+      "description": "Fil.MakrGraalPom170g",
+      "quantity": 1.0,
+      "unit_price": 6.99,
+      "discount": -2.33,
+      "total": 4.66
+    },
+    {
+      "description": "LodyPistacjMarl500ml",
+      "quantity": 1.0,
+      "unit_price": 15.69,
+      "total": 15.69
+    },
+    {
+      "description": "MajonezKielec410ml",
+      "quantity": 1.0,
+      "unit_price": 8.99,
+      "total": 8.99
+    },
+    {
+      "description": "C zKruszonką250g",
+      "quantity": 1.0,
+      "unit_price": 5.29,
+      "total": 5.29
+    },
+    {
+      "description": "KabaExcluTarc105 g",
+      "quantity": 1.0,
+      "unit_price": 6.79,
+      "discount": -2.27,
+      "total": 4.52
+    },
+    {
+      "description": "KabaExcluTarc105 g",
+      "quantity": 1.0,
+      "unit_price": 6.79,
+      "discount": -2.26,
+      "total": 4.53
+    },
+    {
+      "description": "KabaExcluTarc105 g",
+      "quantity": 1.0,
+      "unit_price": 6.79,
+      "discount": -2.26,
+      "total": 4.53
+    },
+    {
+      "description": "ZupChiń5SmakóVif70 g",
+      "quantity": 1.0,
+      "unit_price": 1.99,
+      "discount": -0.66,
+      "total": 1.33
+    },
+    {
+      "description": "ZupChińKurczaVif70 g",
+      "quantity": 1.0,
+      "unit_price": 1.99,
+      "discount": -0.67,
+      "total": 1.32
+    },
+    {
+      "description": "ZupChińKurczaVif70 g",
+      "quantity": 1.0,
+      "unit_price": 1.99,
+      "discount": -0.66,
+      "total": 1.33
+    }
+  ],
+  "payment_method": "Unknown"
+}

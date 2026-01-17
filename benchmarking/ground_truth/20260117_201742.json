@@ -1,0 +1,41 @@
+{
+  "merchant_name": "Kaufland Legionowo",
+  "date": "2025-08-27",
+  "time": "17:27",
+  "total_amount": 32.47,
+  "tax_amount": 1.73,
+  "currency": "PLN",
+  "items": [
+    {
+      "description": "WINPomNaCurr30g",
+      "quantity": 1.0,
+      "unit_price": 3.59,
+      "total": 3.59
+    },
+    {
+      "description": "PomysłKurczakSerowy",
+      "quantity": 1.0,
+      "unit_price": 3.59,
+      "total": 3.59
+    },
+    {
+      "description": "K.Mieszanka8sk450g",
+      "quantity": 1.0,
+      "unit_price": 4.19,
+      "total": 4.19
+    },
+    {
+      "description": "KurczakSielskiFilet",
+      "quantity": 1.0,
+      "unit_price": 19.01,
+      "total": 19.01
+    },
+    {
+      "description": "K.Śmietana12%tł 200g",
+      "quantity": 1.0,
+      "unit_price": 2.09,
+      "total": 2.09
+    }
+  ],
+  "payment_method": "none"
+}

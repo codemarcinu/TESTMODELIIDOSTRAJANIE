@@ -12,6 +12,8 @@ from pathlib import Path
 from typing import Dict, Any, Optional, Tuple
 import time
 
+from google.cloud import vision # Moved from inside GoogleVisionOCRStage
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -84,10 +86,10 @@ class GoogleVisionOCRStage:
             with open(image_path, "rb") as image_file:
                 content = image_file.read()
 
-            image = {"content": content}
-            request = {"image": image, "features": [{"type_": 1, "max_results": 10}]}
+            image = vision.Image(content=content)
+            features = [vision.Feature(type_=vision.Feature.Type.DOCUMENT_TEXT_DETECTION)]
 
-            response = self.client.document_text_detection(request)
+            response = self.client.document_text_detection(image=image, features=features)
             raw_text = response.full_text_annotation.text if response.full_text_annotation else ""
 
             processing_time = time.time() - start_time
