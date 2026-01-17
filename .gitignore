@@ -59,6 +59,7 @@ benchmarking/test_receipts/*.jpg
 benchmarking/test_receipts/*.jpeg
 benchmarking/test_receipts/*.pdf
 *:Zone.Identifier
+*Zone.Identifier
 benchmarking/ocr_results/
 benchmarking/results/
 optimization/results/

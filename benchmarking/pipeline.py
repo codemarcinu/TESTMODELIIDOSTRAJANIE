@@ -62,7 +62,7 @@ class GoogleVisionOCRStage:
 
     def __init__(self):
         try:
-            from google.cloud import vision
+            # from google.cloud import vision # Removed redundant import
             self.client = vision.ImageAnnotatorClient()
             self.available = True
         except ImportError:
